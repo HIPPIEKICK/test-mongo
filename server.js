@@ -1,9 +1,9 @@
-import express from "express";
-import cors from "cors";
-import mongoose from "mongoose";
 import { createRequire } from "module"; // Bring in the ability to create the 'require' method
 const require = createRequire(import.meta.url); // construct the require method
 const anime = require("./data/anime.json") // use the require method
+const express = require("express")
+const cors = require("cors")
+const mongoose = require("mongoose")
 
 //import anime from "./data/anime.json"
 
